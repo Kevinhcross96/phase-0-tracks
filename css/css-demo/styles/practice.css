@@ -5,6 +5,7 @@
 	background-color: #e9e5dc;
 	padding: .15em;
 	margin-top: 1em;
+	border-radius: 150em;
 }
 .list{
 	font-size: .8em;
@@ -17,3 +18,4 @@ p:first-letter {
 ul>li { 	
 	background-color: blue; 
 }
+
