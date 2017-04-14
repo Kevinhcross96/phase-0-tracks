@@ -9,11 +9,23 @@ cite {
   margin-top: 10px;
 }
 
-#external-links ul {
+#external-links ul{
   list-style-type: none;
   padding-left: 0px;
 }
 
+#external-links {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  min-width: 50px;
+}
+
+#main-tag {
+  width: 79%;
+  display: inline-block;
+  vertical-align: top;
+}
 /* you're welcome to edit the
 image, figure, and figcaption CSS if you'd like, 
 but it's optional! */
@@ -29,4 +41,37 @@ figure {
 figcaption {
   font-style: italic;
   text-align: right;
+}
+
+body {
+  max-width: 960px;
+}
+
+//@media screen and (max-width: 500px) {
+  //body {
+    //background-color: hotpink;
+  //}
+//}
+
+@media screen and (max-width: 500px) {
+  #main-tag {
+    font-size: 50%;
+    display: absolute;
+  }
+  #external-links {
+    font-size: 50%;
+    display: absolute;
+  }
+  #ojflwr {
+    height: 50%;
+    width: 50%;
+  }
+  #purpflwr {
+    height: 50%;
+    width: 50%;
+  }
+  .piccap {
+    text-align: left;
+  }
+
 }
