@@ -17,3 +17,7 @@ A commit is an edit or revision to a file. A good commit message will explain th
 * What is a merge conflict?
 
 A merge conflict is when, for whatever reason, a branch is unable to be merged with the master branch. Usually this happens if two branches are being merged that shared a common base commit, but both branches changed that base commit in order to work. Since each of them are depending on their unique change to the base commit, they will not be able to merge.
+
+
+#HEY. HEY. CHECK IT OUT. THIS IS THE TAG TEST LINE AND WHATNOT.
+We good? Cool.
