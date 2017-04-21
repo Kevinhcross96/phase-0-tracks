@@ -1,0 +1,22 @@
+Elevator Robot
+-Approach the elevator
+-Press the button corresponding to the direction you wish to travel (the up arrow for up, the down arrow for down)
+-Wait for the elevator doors to open
+-Enter the elevator
+-Press the button on the elevator that corresponds to the floor you wish to travel to
+-Wait for the elevator to arrive at the desired floor
+	-If the elevator stops on a floor that is not the desired floor, do not leave the elevator
+-Exit the elevator once the doors open on the desired floor
+
+Taking out the garbage
+-approach the garbage can when it is full
+-grasp the garbage bag and remove it from the garbage can
+-pull the plastic drawstrings on the garbage bag until the top of the bag is closed
+-carry the garbage bag to the door
+-turn the doorknob to open the door
+-carry the garbage bag out of the door
+-close the door
+-carry the garbage bag to the garbage chute in the hallway
+-open the garbage chute by pulling on the lever on the garbage chute
+-drop the garbage bag into the garbage chute
+-close the garbage chute door by pushing the door back into the closed position
