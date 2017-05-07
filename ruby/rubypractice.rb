@@ -1,15 +1,9 @@
-letters = ["a", "b", "c", "d", "e"]
-new_letters = []
+require 'SecureRandom'
+SecureRandom
+SecureRandom.class
+unique_identifier = SecureRandom.uuid
+puts SecureRandom.base64(2)
 
-puts "Original data:"
-p letters
-
-letters.each do |letter|
-	new_letters << letter.next
-end
-
-puts "After .each call:"
-p letters
-p new_letters
-
-alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+Math
+puts Math.sqrt(4)
+puts Math.singleton_methods
