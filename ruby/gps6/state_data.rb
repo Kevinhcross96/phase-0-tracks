@@ -1,6 +1,7 @@
 #population density is number of people per square mile as of 2012
 #this data is updated every year with estimates from a 10 year census
-
+#Constant variables are not to be changed, they begin with a capital letter, they cannot be defined within methods
+#Constant variables can be defined within a class or module, or accessed globally 
 
 STATE_DATA = {
   "Alabama" => {population_density: 94.65, population: 4822023},
