@@ -1,0 +1,12 @@
+1. Joined three tables
+
+SELECT * FROM reviews LEFT JOIN businesses ON reviews.business_id = businesses.id INNER JOIN users ON reviews.users_id = users.id;
+1|5|Loved it!|1|1|1|Beagle Nightclub|1|Bradford|Pitt
+2|1|I am in indescribable pain|2|2|2|Sushi World|2|Mandy|Kaling
+
+2.  SELECT users.First_name, businesses.name, reviews.stars, reviews.comment FROM reviews LEFT JOIN businesses ON reviews.business_id = businesses.id INNER JOIN users ON reviews.users_id = users.id;
+Bradford|Beagle Nightclub|5|Loved it!
+Mandy|Sushi World|1|I am in indescribable pain
+
+3. SELECT * FROM reviews LEFT JOIN businesses ON reviews.business_id = businesses.id INNER JOIN users ON reviews.users_id = users.id WHERE businesses.name = "Sushi World";
+2|1|I am in indescribable pain|2|2|2|Sushi World|2|Mandy|Kaling
