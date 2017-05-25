@@ -12,6 +12,37 @@ get '/' do
   "#{params[:name]} is #{params[:age]} years old."
 end
 
+get '/contact' do
+  "50 Random Farms Drive, Chappaqua NY, 10514."
+end
+
+get '/good_job' do
+  name = params[name]
+  if params[:name]
+  "Good job #{params[:name]}" "!"
+else
+  "Good job!"
+end
+end
+
+get '/add/:num1/:num2' do
+  num1 = params[:num1]
+  num2 = params[:num2]
+  sum = num1.to_i + num2.to_i
+  "#{sum}"
+end
+
+get '/students/:campus' do
+  location = db.execute("SELECT * FROM students WHERE campus=?", [params[:campus]]) 
+  list = ""
+  location.each do |student|
+    list << "#{student['id']} <br>"
+    list << "#{student['name']} <br>"
+    list << "#{student['age']} <br>"
+    list << "#{student['campus']} <br><br>"
+  end
+  list
+end
 # write a GET route with
 # route parameters
 get '/about/:person' do
