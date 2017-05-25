@@ -14,13 +14,6 @@ class TodoList
 	end
 
 	def delete_item(item)
-		#x = 0
-		#while x < @list.length
-			#if @list[x] == item
-				#@list = @list.delete(x)
-			#end
-			#x += 1
-		#end
 		@list.each do |i|
 			if i == item
 				@list.delete(i)
