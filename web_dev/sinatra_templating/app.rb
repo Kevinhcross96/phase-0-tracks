@@ -13,6 +13,10 @@ get '/' do
   erb :home
 end
 
+get '/other' do
+	erb :other
+end
+
 get '/students/new' do
   erb :new_student
 end
